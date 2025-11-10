@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <!-- <script src="closure.js"></script> -->
+    <script src="curry.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <button id="btn" onclick="callCustomEvent()">Click Me</button>
+    <input id="search-input" type="text" placeholder="Search..."/> -->
+    <!-- <div id="electornics" class="products">
+        <span id="mobile" class="product">Mobile</span>
+        <span id="headphones" class="product">Headphones</span>
+        <span id="laptop" class="product">Laptop</span>
+        <span id="speakers" class="product">Speakers</span>
+        <span id="usb_dock" class="product">USB Dock</span>
+        <span id="tripod" class="product">TriPod</span>
+    </div>
+
+    <div id="wearables" class="products">
+        <span id="t-shirt" class="product">T-shirt</span>
+        <span id="shirt" class="product">shirt</span>
+        <span id="jeans" class="product">Jeans</span>
+        <span id="socks" class="product">Socks</span>
+        <span id="boot" class="product">Boot</span>
+        <span id="chappals" class="product">Chappals</span>
+    </div> -->
+    <!-- <button class="modalButton">Open Modal</button>
+    <div class="modalContainer">
+      <div class="modal">Modal Content</div>
+    </div> -->
+  </body>
+</html>
+
+// You have been given an array any type, you need to return sorted list of
+numbers. Ignore anything above 2nd level. Implement a react hook, that takes
+input initial value and returns output as a state and a function push insert new
+values in the array. //   Example: input = [4, [1, 2, [14, 15]], {}, “hello”];
+// Output = [1, 2, 4] // const useSort = (input) => { // const [sortedOutput,
+setSortedOutput] = useState([]); // const insertNewValues = (value) => { //
+setSortedOutput((prevValue) => [...prevValue, value]); // }; // const sort =
+(input) => { // const temp = []; // input?.map((val) => { // if (typeof val ===
+"number") { // temp.push(val); // } else if (Array.isArray(val)) { //
+val.forEach((number) => { // temp.push(number); // }) // } // }); //
+temp.sort((a, b) => a-b); // setSortedOutput(temp); // } // useEffect(() => { //
+sort(input); // }, []); // return { // sortedOutput, // insertNewValues // } //
+} // export

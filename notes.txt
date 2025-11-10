@@ -1,0 +1,28 @@
+Polyfills to be written down:
+- deepClone (DONE - Yet to be written in notes)
+- repeat (DONE - Yet to be written in notes)
+- convert12To24
+- check if srtring is a panagram
+- generic function for API calls for GET,PUT, POST, DELETE
+- flatten (DONE)
+- once (DONE)
+- memoize (DONE)
+- call (DONE)
+- apply (DONE)
+- bind (DONE)
+- pipe (DONE)
+- compose (DONE)
+- debounce (DONE)
+- throttling (DONE)
+- map (DONE)
+- filter (DONE)
+- reduce (DONE)
+- EventEmitters (DONE)
+- Promise (DONE)
+- Promise.all (DONE)
+- Promise.any (DONE)
+- Promise.allSettled (DONE)
+- Promise.race (DONE)
+- event delegation example in HTML, JS (DONE)
+-------------------------------------------------
+- curry (DONE)
