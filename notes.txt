@@ -1,11 +1,9 @@
 Polyfills to be written down:
-- deepClone (DONE - Yet to be written in notes)
 - repeat (DONE - Yet to be written in notes)
 - convert12To24
 - check if srtring is a panagram
 - generic function for API calls for GET,PUT, POST, DELETE
 - flatten (DONE)
-- once (DONE)
 - memoize (DONE)
 - debounce (DONE)
 - throttling (DONE)
@@ -17,6 +15,7 @@ Polyfills to be written down:
 - Promise.race (DONE)
 - event delegation example in HTML, JS (DONE)
 -------------------------------------------------
+- deepClone (DONE)
 - curry (DONE)
 - map (DONE)
 - forEach (DONE)
@@ -27,3 +26,4 @@ Polyfills to be written down:
 - bind (DONE)
 - pipe (DONE)
 - compose (DONE)
+- once (DONE)
