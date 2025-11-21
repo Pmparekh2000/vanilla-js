@@ -14,9 +14,6 @@ Polyfills to be written down:
 - compose (DONE)
 - debounce (DONE)
 - throttling (DONE)
-- map (DONE)
-- filter (DONE)
-- reduce (DONE)
 - EventEmitters (DONE)
 - Promise (DONE)
 - Promise.all (DONE)
@@ -26,3 +23,7 @@ Polyfills to be written down:
 - event delegation example in HTML, JS (DONE)
 -------------------------------------------------
 - curry (DONE)
+- map (DONE)
+- forEach (DONE)
+- filter (DONE)
+- reduce (DONE)
