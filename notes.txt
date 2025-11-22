@@ -8,10 +8,8 @@ Polyfills to be written down:
 - debounce (DONE)
 - throttling (DONE)
 - EventEmitters (DONE)
-
 - Promise.any (DONE)
 
-- Promise.race (DONE)
 - event delegation example in HTML, JS (DONE)
 -------------------------------------------------
 - deepClone (DONE)
@@ -30,3 +28,4 @@ Polyfills to be written down:
 - Promise (DONE)
 - Promise.all (DONE)
 - Promise.allSettled (DONE)
+- Promise.race (DONE)
