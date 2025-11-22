@@ -5,6 +5,7 @@ Polyfills to be written down:
 - generic function for API calls for GET,PUT, POST, DELETE
 - flatten (DONE)
 - memoize (DONE)
+- clearAllTimers ()
 - debounce (DONE)
 - throttling (DONE)
 - EventEmitters (DONE)

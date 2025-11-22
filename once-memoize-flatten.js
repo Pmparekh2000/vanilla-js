@@ -55,3 +55,59 @@ const incrementOnce = increment.myOnce();
 // console.log("Context Test 1:", person.getId()); // Output: Context Test 1: 1
 // person.id = 2; // Mutate the object
 // console.log("Context Test 2:", person.getId()); // Output: Context Test 2: 1 (Returns cached result from first call)
+
+/**
+ * myMemoize function takes a resolver function to generate a key and returns a memoized function.
+ * It maintains cache internally in the form of map for having more explicit keys
+ */
+Function.prototype.myMemoize = function (resolver) {
+  const fn = this;
+  if (typeof fn !== "function") {
+    throw new TypeError("myMemoize must be running on a function only");
+  }
+  if (typeof resolver !== "function") {
+    throw new TypeError("Resolver must be a type of function only");
+  }
+
+  const cache = new Map();
+
+  const memoized = function (...args) {
+    let key;
+
+    if (resolver) {
+      key = resolver.apply(this, args);
+    } else if (args.length === 0) {
+      key = "_default_";
+    } else {
+      key = args[0];
+    }
+
+    if (cache.has(key)) {
+      return cache.get(key);
+    }
+
+    const result = fn.apply(this, args);
+    cache.set(key, result);
+
+    return result;
+  };
+
+  memoized.cache = cache;
+
+  return memoized;
+};
+
+let computationCount = 0;
+const heavyComputation = (a, b) => {
+  computationCount++;
+  console.log(computationCount);
+  return a + b;
+};
+
+const memoizedHeavyComputation = heavyComputation.myMemoize((a, b) =>
+  JSON.stringify([a, b])
+);
+memoizedHeavyComputation(2, 3);
+memoizedHeavyComputation(2, 3);
+
+memoizedHeavyComputation(3, 2);
