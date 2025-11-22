@@ -4,7 +4,6 @@ Polyfills to be written down:
 - check if srtring is a panagram
 - generic function for API calls for GET,PUT, POST, DELETE
 - flatten (DONE)
-- memoize (DONE)
 - clearAllTimers ()
 - debounce (DONE)
 - throttling (DONE)
@@ -28,3 +27,4 @@ Polyfills to be written down:
 - pipe (DONE)
 - compose (DONE)
 - once (DONE)
+- memoize (DONE)
