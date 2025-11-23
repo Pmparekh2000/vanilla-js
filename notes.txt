@@ -1,5 +1,4 @@
 Polyfills to be written down:
-- convert12To24
 - generic function for API calls for GET,PUT, POST, DELETE
 - flatten (DONE)
 - clearAllTimers ()
@@ -8,6 +7,7 @@ Polyfills to be written down:
 - EventEmitters (DONE)
 - event delegation example in HTML, JS (DONE)
 -------------------------------------------------
+- convert12To24
 - deepClone (DONE)
 - repeat (DONE)
 - check if srtring is a panagram (DONE)
