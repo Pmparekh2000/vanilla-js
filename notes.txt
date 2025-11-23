@@ -1,18 +1,16 @@
 Polyfills to be written down:
-- repeat (DONE - Yet to be written in notes)
 - convert12To24
-- check if srtring is a panagram
 - generic function for API calls for GET,PUT, POST, DELETE
 - flatten (DONE)
 - clearAllTimers ()
 - debounce (DONE)
 - throttling (DONE)
 - EventEmitters (DONE)
-- Promise.any (DONE)
-
 - event delegation example in HTML, JS (DONE)
 -------------------------------------------------
 - deepClone (DONE)
+- repeat (DONE)
+- check if srtring is a panagram (DONE)
 - curry (DONE)
 - map (DONE)
 - forEach (DONE)
@@ -29,3 +27,4 @@ Polyfills to be written down:
 - Promise.all (DONE)
 - Promise.allSettled (DONE)
 - Promise.race (DONE)
+- Promise.any (DONE)
